@@ -5,35 +5,55 @@ import './App.css';
 import { Card, Container, Row, Col } from 'react-bootstrap';
 import { ParallaxProvider, ParallaxBannerLayer, ParallaxBanner } from 'react-scroll-parallax';
 
-const Header = () => {
+import image1 from './assets/img/bg-1.png';
+import image2 from './assets/img/bg-2.png';
+import image3 from './assets/img/bg-3.png';
 
+
+const Header = () => {
+	const text = {
+		children:
+			<Row xs={1} md={1} lg={2} className="center px-2 justify-content-center">
+				<Col className='my-2'><h1><b>Samuele Lo Truglio</b></h1></Col>
+				<Col ><h3>
+					Computer Science Engineer
+				</h3></Col>
+				<Col fluid className='my-4 '><p>
+					I'm <b>23 years old</b> and I live in <b>Torino</b>.
+				</p></Col>
+			</Row>
+
+		,
+		translateY: [0, 30],
+		scale: [1, 0.70, "easeOutCubic"],
+		shouldAlwaysCompleteAnimation: true,
+		expanded: false,
+	}
+
+	const bg1 = {
+		image: image1,
+		translateY: [0, 50],
+		shouldAlwaysCompleteAnimation: true,
+		expanded: false,
+	}
+
+	const bg2 = {
+		image: image2,
+		translateY: [5, 40],
+		shouldAlwaysCompleteAnimation: true,
+		expanded: false,
+	  }
+
+	  const bg3 = {
+		image: image3,
+		translateY: [20, 20],
+		shouldAlwaysCompleteAnimation: true,
+		expanded: false,
+	  }
 	return (
 		<ParallaxBanner
-			layers={[{
-				children: <div className='inset center px-2'>
-					<Container fluid><h1>
-						<b>Samuele<br/>Lo Truglio</b>
-					</h1></Container>
-					<Container fluid>
-						<h2>
-							Computer Science Engineer
-						</h2>
-					</Container>
-					<Container className='pt-4'>
-						<p>
-						I'm <b>23 years old</b> and I live in <b>Torino</b>.
-						</p>
-					</Container>
-				</div>
-				
-				,
-				translateY: [0, 30],
-				scale: [1, 0.70, "easeOutCubic"],
-				shouldAlwaysCompleteAnimation: true,
-				expanded: false,
-			}]}
-			style={{ aspectRatio: '2/1' }}
-			className="full"
+			layers={[text]}
+			className="App-header"
 		/>
 	);
 };
@@ -43,11 +63,7 @@ function App() {
 	return (
 		<ParallaxProvider>
 			<div className="App">
-				<header className="App-header">
-					<div className="container expanded">
-						<Header/>
-					</div>
-				</header>
+						<Header />
 				<div className='App-scroll'>
 					<p> Scroll to read more</p>
 					<i class="bi bi-chevron-double-down"></i>
