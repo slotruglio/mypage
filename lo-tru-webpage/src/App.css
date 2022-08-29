@@ -1,6 +1,11 @@
 .App {
   font-family: 'Source Code Pro', monospace;
-  text-align: center;
+  text-align: left;
+  background-color: #282c34;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  height: 200vh;
+  padding: 10px;
 }
 
 .App-logo {
@@ -22,13 +27,37 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
-  flex-direction: column;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
+  padding: 10px;
+}
+
+.App-scroll {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #282c34;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+  padding: 2px;
 }
 
 .App-link {
@@ -46,4 +75,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inset {
+  position: absolute;
+  inset: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
 }
