@@ -1,3 +1,4 @@
+// import from node modules
 import { Container } from 'react-bootstrap';
 
 const linkedinUrl = "https://www.linkedin.com/in/samuele-lo-truglio/";

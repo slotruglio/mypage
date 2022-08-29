@@ -1,7 +1,9 @@
+// import from node modules
 import { useContext } from "react";
-import { Button, Stack, ButtonGroup, ToggleButton } from "react-bootstrap";
-import i18n from "../i18n";
+import { ButtonGroup, ToggleButton } from "react-bootstrap";
 import { useTranslation } from 'react-i18next';
+// import from custom libraries
+import i18n from "../i18n";
 import LocaleContext from "../LocaleContext";
 
 function LanguageButton () {
@@ -43,7 +45,7 @@ function LanguageButton () {
 function Title() {
 	const { t } = useTranslation();
 	return (
-		<h1>{t('engineer')}</h1>
+		<h2>{t('engineer')}</h2>
 	);
 }
 

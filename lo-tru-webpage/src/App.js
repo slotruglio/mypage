@@ -1,15 +1,15 @@
 // import css
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './App.css';
-import './palette.css';
+import './css/App.css';
+import './css/palette.css';
 
-// import from libraries
+// import from node modules
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Suspense, useState } from 'react';
 import { Container } from 'react-bootstrap';
 
-// import from local libraries
+// import from custom libraries
 import i18n from './i18n';
 import Loading from './components/Loading';
 import LocaleContext from './LocaleContext';

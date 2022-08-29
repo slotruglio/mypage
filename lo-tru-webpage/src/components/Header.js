@@ -1,8 +1,10 @@
+// import from node modules
 import {Row, Col} from 'react-bootstrap';
 import {ParallaxBanner} from 'react-scroll-parallax';
+// import from custom libraries
 import { Title, Description, ScrollText } from './Language';
 import { SocialHeader } from './Social';
-
+// import assets
 import matrix from '../assets/img/background.png';
 
 const Header = () => {
@@ -35,7 +37,7 @@ const Header = () => {
 	const back01 = {
 		image: matrix,
 		translateY: [0, -30],
-		opacity: [.3, .1],
+		opacity: [.2, .0],
 		shouldAlwaysCompleteAnimation: true,
 		expanded: false,
 	}
