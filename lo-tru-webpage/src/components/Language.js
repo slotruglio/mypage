@@ -16,8 +16,8 @@ function LanguageButton () {
     }
 
 	const radios = [
-		{ name: 'EN', value: 'en' },
-		{ name: 'IT', value: 'it' },
+		{ name: 'EN', value: 'en-US' },
+		{ name: 'IT', value: 'it-IT' },
 	];
 
 
