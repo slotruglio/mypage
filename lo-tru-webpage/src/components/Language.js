@@ -73,7 +73,7 @@ function ScrollText() {
 	return (
 		<div className="text-center">
 			<p>{t('scroll')}</p>
-			<i class="bi bi-chevron-double-down custom-arrow"></i>
+			<i className="bi bi-chevron-double-down custom-arrow"></i>
 		</div>
 	)
 }
