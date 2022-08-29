@@ -2,7 +2,7 @@
   font-family: 'Source Code Pro', monospace;
   text-align: left;
   background-color: #2C3639;
-  font-size: calc(2px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
   height: 200vh;
 }
@@ -26,26 +26,22 @@
 
 .App-header {
   background-color: #2C3639;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(5px + 2vmin);
   color: white;
   padding: 10px;
 }
 
 .App-scroll {
-  background-color: #2C3639;
-  min-height: 20vh;
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -54,7 +50,6 @@
   display: flex;
   text-align: center;
   align-items: center;
-  font-size: calc(1px + 2vmin);
   color: white;
   padding: 2px;
 }
@@ -82,6 +77,39 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 50%;
+  top: 30%;
   padding-left: 20%;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70%;
+  padding-right: 20%;
+}
+
+.custom-sticky-top-right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-self: end;
+  text-align: right;
+  padding: 10px;
+  z-index: 100;
+}
+
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateY(0px) scale(1);}
+  25%{opacity: 0; transform:translateY(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateY(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateY(0px) scale(1);}
+}
+
+.custom-arrow {
+  animation-name: bounceAlpha;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
