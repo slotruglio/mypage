@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { Button, Stack, ButtonGroup, ToggleButton } from "react-bootstrap";
-import i18n from "./i18n";
+import i18n from "../i18n";
 import { useTranslation } from 'react-i18next';
-import LocaleContext from "./LocaleContext";
+import LocaleContext from "../LocaleContext";
 
 
 function LanguageButton () {

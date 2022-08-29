@@ -52,6 +52,8 @@
   align-items: center;
   color: white;
   padding: 2px;
+  position: absolute;
+  top: 195vh;
 }
 
 .App-link {
