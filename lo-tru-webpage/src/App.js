@@ -15,7 +15,7 @@ import logo from './logo.svg';
 import matrix from './assets/img/background.png';
 
 import LocaleContext from './LocaleContext';
-import { LanguageButton, Title, Description, Bachelor, Master } from './Language';
+import { LanguageButton, Title, Description, Bachelor, Master, ScrollText } from './Language';
 
 
 
@@ -28,9 +28,9 @@ const Header = () => {
 					<Col className=' text-lg-start'><Title /></Col>
 					<Col fluid className='my-4  '><Description /></Col>
 				</Row>
-				<Row className="end px-2 justify-content-center">
-					<p> Scroll to read more</p>
-					<i class="bi bi-chevron-double-down custom-arrow"></i>
+				<Row xs={1} className="end px-2"><Col className="text-lg-center">
+					<ScrollText />
+					</Col>
 				</Row>
 			</>
 

@@ -85,9 +85,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   position: relative;
-  top: 70%;
-  padding-right: 20%;
+  top: 35%;
 }
 
 .custom-sticky-top-right {
@@ -112,4 +112,9 @@
   animation-name: bounceAlpha;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
 }
