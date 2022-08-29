@@ -4,7 +4,6 @@ import i18n from "../i18n";
 import { useTranslation } from 'react-i18next';
 import LocaleContext from "../LocaleContext";
 
-
 function LanguageButton () {
     const {locale} = useContext(LocaleContext);
 
@@ -44,7 +43,7 @@ function LanguageButton () {
 function Title() {
 	const { t } = useTranslation();
 	return (
-		<h2>{t('engineer')}</h2>
+		<h1>{t('engineer')}</h1>
 	);
 }
 
@@ -57,25 +56,14 @@ function Description() {
 	)
 }
 
-function Bachelor() {
+function TextBox(props) {
 	const { t } = useTranslation();
 	return (
 		<div className="my-4 mx-2">
 			<p>
-				{t('bachelor')}</p>
+				{t(props.text)} {props.link ? <a href={props.link} className="App-link" target="_blank" rel="noreferrer">Link</a> : <></>}</p>
 		</div>
 	);
-}
-
-function Master() {
-	const { t } = useTranslation();
-	return (
-		<div className="my-4 mx-2">
-			<p>
-				{t('master')}
-			</p>
-		</div>
-	)
 }
 
 function ScrollText() {
@@ -88,4 +76,4 @@ function ScrollText() {
 	)
 }
 
-export {LanguageButton, Title, Description, Bachelor, Master, ScrollText};
+export {LanguageButton, Title, Description, TextBox, ScrollText};

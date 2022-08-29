@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap';
 
 const linkedinUrl = "https://www.linkedin.com/in/samuele-lo-truglio/";
 const githubUrl = "https://github.com/slotruglio";
-
+const innovationDays = "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
 
 function LinkedinFooter() {
     return (
@@ -41,4 +41,4 @@ function GithubFooter() {
 }
 
 
-export { LinkedinFooter, GithubFooter, SocialHeader };
+export { LinkedinFooter, GithubFooter, SocialHeader, innovationDays };

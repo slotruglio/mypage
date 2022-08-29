@@ -10,9 +10,9 @@ const Header = () => {
 		children:
 			<>
 				<Row xs={1} md={1} lg={2} className="center px-2 justify-content-center">
-					<Col className='my-2 text-lg-end'><h1><b>Samuele Lo Truglio</b></h1></Col>
-					<Col className=' text-lg-start'><Title /></Col>
-					<Col fluid className='my-4  '><Description /></Col>
+					<Col className='my-2 text-lg-end' len><h1 className='accent'><b>Samuele Lo Truglio</b></h1></Col>
+					<Col className='my-2 text-lg-start'><Title /></Col>
+					<Col fluid className='my-4'><Description /></Col>
 
 				</Row>
 				<Row xs={1} md={1} lg={1} className="center px-2 justify-content-center">

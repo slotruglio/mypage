@@ -2,17 +2,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
+import './palette.css';
 
 // import from libraries
-import { ParallaxProvider} from 'react-scroll-parallax';
+import { ParallaxProvider } from 'react-scroll-parallax';
 import { Suspense, useState } from 'react';
+import { Container } from 'react-bootstrap';
 
 // import from local libraries
 import i18n from './i18n';
 import Loading from './components/Loading';
 import LocaleContext from './LocaleContext';
-import { LanguageButton, Bachelor, Master } from './components/Language';
-import { LinkedinFooter, GithubFooter} from './components/Social';
+import { LanguageButton, TextBox } from './components/Language';
+import { LinkedinFooter, GithubFooter, innovationDays } from './components/Social';
 import Header from './components/Header';
 
 
@@ -29,10 +31,29 @@ function App() {
 					<LanguageButton />
 					<Suspense fallback={<Loading />}>
 						<Header />
-
-						<Bachelor />
-						<Master />
-
+						<Container>
+							<h3>Resume</h3>
+							<TextBox text='resume' />
+						</Container>
+						
+						<Container>
+							<h3>Studies</h3>
+							<TextBox text='bachelor' />
+							<TextBox text='master' />
+						</Container>
+						<Container>
+							<h3>Soft Skills</h3>
+							<TextBox text='soft-skills' />
+						</Container>
+						<Container>
+							<h3>Programming Skills</h3>
+							<TextBox text='programming-skills' />
+						</Container>
+						<Container>
+							<h3>Experiences</h3>
+							<TextBox text='innovation-day' link={innovationDays} />
+						</Container>
+						
 						<footer className='App-footer fixed-bottom'>
 							<GithubFooter />
 							<LinkedinFooter />
