@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 // import from custom libraries
 import i18n from "../i18n";
 import LocaleContext from "../LocaleContext";
+import age from '../time.js';
 
 function LanguageButton () {
     const {locale} = useContext(LocaleContext);
@@ -53,7 +54,9 @@ function Description() {
 	const { t } = useTranslation();
 	return (
 		<p>
-			{t('description')}
+			{t('description-part1')}
+			{age}
+			{t('description-part2')}
 		</p>
 	)
 }

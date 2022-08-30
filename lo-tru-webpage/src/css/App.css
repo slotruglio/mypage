@@ -4,7 +4,7 @@
   background-color: #2C3639;
   font-size: calc(10px + 1vmin);
   color: white;
-  height: 200vh;
+  max-height: 300vh;
 }
 
 .App-logo {
@@ -52,8 +52,8 @@
   align-items: center;
   color: white;
   padding: 2px;
-  position: absolute;
-  top: 195vh;
+  position: relative;
+  bottom: 0;
 }
 
 .App-link {
