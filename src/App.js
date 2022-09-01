@@ -58,6 +58,7 @@ function App() {
 							<SocialFooter social="github" />
 							<SocialFooter social="linkedin" />
 						</footer>
+						<a className="App-link credits" href="https://www.flaticon.com/free-icons/ai" title="ai icons">Ai icons created by Smartline - Flaticon</a>
 					</Suspense>
 				</LocaleContext.Provider>
 			</div>

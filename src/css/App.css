@@ -120,3 +120,12 @@
   outline: none !important;
   outline-offset: none !important;
 }
+
+.credits {
+  font-size: calc(1px + 1vmin);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #dcd7c972;
+}
