@@ -3,9 +3,9 @@ import { useContext } from "react";
 import { ButtonGroup, ToggleButton } from "react-bootstrap";
 import { useTranslation } from 'react-i18next';
 // import from custom libraries
-import i18n from "../i18n";
-import LocaleContext from "../LocaleContext";
-import age from '../time.js';
+import i18n from "../utility/i18n";
+import LocaleContext from "../utility/LocaleContext";
+import age from '../utility/time.js';
 
 function LanguageButton () {
     const {locale} = useContext(LocaleContext);
@@ -15,6 +15,12 @@ function LanguageButton () {
             i18n.changeLanguage(l);
         }       
     }
+
+	function isLanguageOfContext(l) {
+		var localeLower = locale.toLowerCase();
+		var lLower = l.toLowerCase();
+		return localeLower.includes(lLower);
+	}
 
 	const radios = [
 		{ name: 'EN', value: 'en' },
@@ -29,11 +35,11 @@ function LanguageButton () {
             key={idx}
             id={`radio-${idx}`}
             type="radio"
-            variant={locale === radio.value ? 'light' : 'dark'}
+            variant={isLanguageOfContext(radio.value) ? 'light' : 'dark'}
             name="radio"
             value={radio.value}
 			size="sm"
-            checked={locale === radio.value}
+            checked={isLanguageOfContext(radio.value)}
             onChange={(e) => changeLocale(radio.value)}
           >
             {radio.name}

@@ -10,9 +10,9 @@ import { Suspense, useState } from 'react';
 import { Container } from 'react-bootstrap';
 
 // import from custom libraries
-import i18n from './i18n';
+import i18n from './utility/i18n';
 import Loading from './components/Loading';
-import LocaleContext from './LocaleContext';
+import LocaleContext from './utility/LocaleContext';
 import { LanguageButton, TextBox } from './components/Language';
 import { LinkedinFooter, GithubFooter, innovationDays } from './components/Social';
 import Header from './components/Header';
