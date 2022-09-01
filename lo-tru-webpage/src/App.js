@@ -14,7 +14,7 @@ import i18n from './utility/i18n';
 import Loading from './components/Loading';
 import LocaleContext from './utility/LocaleContext';
 import { LanguageButton, TextBox } from './components/Language';
-import { LinkedinFooter, GithubFooter, innovationDays } from './components/Social';
+import { innovationDays, SocialFooter } from './components/Social';
 import Header from './components/Header';
 
 
@@ -55,8 +55,8 @@ function App() {
 						</Container>
 						
 						<footer className='App-footer fixed-bottom'>
-							<GithubFooter />
-							<LinkedinFooter />
+							<SocialFooter social="github" />
+							<SocialFooter social="linkedin" />
 						</footer>
 					</Suspense>
 				</LocaleContext.Provider>

@@ -1,45 +1,63 @@
 // import from node modules
 import { Container } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
 
 const linkedinUrl = "https://www.linkedin.com/in/samuele-lo-truglio/";
 const githubUrl = "https://github.com/slotruglio";
 const innovationDays = "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
 
-function LinkedinFooter() {
+const socialTexts = {
+    "linkedin": {
+        "title": "LinkedIn",
+        "iconClassName": "bi bi-linkedin",
+        "href": linkedinUrl,
+        "l-text": "Samuele Lo Truglio",
+        "s-text": "S. Lo Truglio"
+    },
+    "github": {
+        "title": "Github",
+        "iconClassName": "bi bi-github",
+        "href": githubUrl,
+        "l-text": "slotruglio",
+        "s-text": "slotruglio"
+    }
+};
+
+function SocialFooter(props) {
+    const [isShort, setShort] = useState(window.innerWidth < 415);
+
+    const updateMedia = () => {
+        setShort(window.innerWidth < 415);
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", updateMedia);
+        return () => window.removeEventListener("resize", updateMedia);
+    });
+
+    const content = socialTexts[props.social];
     return (
         <Container>
             <a
-                className="bi bi-linkedin App-link"
-                href={linkedinUrl}
+                className={content["iconClassName"] + " App-link"}
+                href={content["href"]}
                 target="_blank"
-                rel="noreferrer"> Samuele Lo Truglio</a>
+                rel="noreferrer">{isShort ? content["s-text"] : content["l-text"]}</a>
         </Container>
     )
 }
 
 function SocialHeader(props) {
-    
+    const content = socialTexts[props.social];
     return (
-        <Container>{props.isLinkedin ? "LinkedIn" : "Github"}:
+        <Container>{content["title"]}:
             <a
-                className="App-link" href={props.isLinkedin ? linkedinUrl : githubUrl}
+                className="App-link" href={content["href"]}
                 target="_blank"
-                rel="noreferrer"> {props.isLinkedin ? "Samuele Lo Truglio": "slotruglio"}</a>
-        </Container>
-    )
-}
-
-function GithubFooter() {
-    return (
-        <Container className='flex'>
-            <a
-                className="bi bi-github App-link"
-                href={githubUrl}
-                target="_blank"
-                rel="noreferrer"> slotruglio</a>
+                rel="noreferrer"> {content["l-text"]}</a>
         </Container>
     )
 }
 
 
-export { LinkedinFooter, GithubFooter, SocialHeader, innovationDays };
+export { SocialFooter, SocialHeader, innovationDays };

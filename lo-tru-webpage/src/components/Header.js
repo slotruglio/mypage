@@ -18,8 +18,8 @@ const Header = () => {
 
 				</Row>
 				<Row xs={1} md={1} lg={1} className="center px-2 justify-content-center">
-					<Col className='my-2 px-2'><SocialHeader isLinkedin /></Col>
-					<Col className="my-2 px-2"><SocialHeader /></Col>
+					<Col className='my-2 px-2'><SocialHeader social="linkedin" /></Col>
+					<Col className="my-2 px-2"><SocialHeader social="github" /></Col>
 				</Row>
 				<Row xs={1} md={1} lg={1} className="end px-2"><Col className="text-lg-center">
 					<ScrollText />
