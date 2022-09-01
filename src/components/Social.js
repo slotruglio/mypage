@@ -42,7 +42,7 @@ function SocialFooter(props) {
                 className={content["iconClassName"] + " App-link"}
                 href={content["href"]}
                 target="_blank"
-                rel="noreferrer">{" "+ isShort ? content["s-text"] : content["l-text"]}</a>
+                rel="noreferrer">{" "+(isShort ? content["s-text"] : content["l-text"])}</a>
         </Container>
     )
 }
