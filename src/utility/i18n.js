@@ -25,7 +25,7 @@ i18n
       backendOptions: [{
         loadPath: '/locales/{{lng}}/{{ns}}.json'
       },{
-      loadPath: '/mypage/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/master/locales/{{lng}}/{{ns}}.json',
       }]
     }
   });
