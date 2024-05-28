@@ -2,5 +2,6 @@
     "hello": "hello",
     "occupation": "Ground System Engineer",
     "quote": "Fortune favors the brave",
-    "degree": "Master Degree in Computer Engineering"
+    "degree": "Master Degree in Computer Engineering",
+    "goUp": "Go Up"
 }

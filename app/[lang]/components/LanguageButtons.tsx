@@ -13,7 +13,7 @@ function LanguageButton ({lang}: {lang: Locale}) {
 	];
 
     function getClassName(index: number) {
-        let base = "align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+        let base = "align-middle select-none font-sans font-bold text-center uppercase transition-all opacity-50 shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] hover:opacity-[0.85] focus:shadow-none disabled:opacity-[0.85]"
         if (index === 0) {
             return base + " rounded-r-none border-r-0";
         } else if (index === radios.length - 1) {
@@ -27,7 +27,7 @@ function LanguageButton ({lang}: {lang: Locale}) {
     <div className="flex divide-x divide-gray-800 row">
       {radios.map(({name, value}, index) => (
         <button key={index} disabled={value === lang} type="button" className={getClassName(index)}
-            onClick={() => replace(pathname.replace(`/${lang}`, `/${value}`))}
+            onClick={() => replace(pathname.replace(`/${lang}`, `/${value}`), {scroll:false})}
         >
             {name} </button>
       ))}

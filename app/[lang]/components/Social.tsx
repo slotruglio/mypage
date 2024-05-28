@@ -14,7 +14,7 @@ const socialTexts = {
         "s-text": "S. Lo Truglio"
     },
     "github": {
-        "title": "Github",
+        "title": "GitHub",
         "iconClassName": "bi bi-github",
         "href": githubUrl,
         "l-text": "slotruglio",

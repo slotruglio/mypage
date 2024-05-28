@@ -3,6 +3,7 @@ import { Locale } from "@/i18n-config";
 import LanguageButton from "./components/LanguageButtons";
 import { SocialHeader } from "./components/Social";
 import Link from "next/link";
+import GoUpButton from "./components/GoUpButton";
 
 const polito_href = "https://www.polito.it/";
 const tas_href = "https://www.thalesaleniaspace.com/";
@@ -18,7 +19,7 @@ export default async function Home({
       <div id="header" className="header fixed top-0 right-0">
         <LanguageButton lang={lang} />
       </div>
-      <div id="first-section" className="flex flex-col items-center justify-center h-screen p-24 space-y-8">
+      <div id="intro-section" className="flex flex-col items-center justify-center h-screen p-24 space-y-8">
         <div className="flex flex-col w-full lg:flex-row p-8 items-center justify-center space-y-12 lg:space-y-0 lg:justify-between lg:space-x-4">
           <div className="personal space-y-4 justify-items-start text-center lg:text-start">
             <h1
@@ -45,11 +46,27 @@ export default async function Home({
           
         </div>
       </div>
-      <div id="second-section" className="flex items-center justify-center h-screen">
+      <div id="work-section" className="flex items-center justify-center h-screen">
         <h1 className="text-6xl font-bold text-center text-white">
-          {dictionary.hello}
-        </h1>
+          Work
+        </h1>   
       </div>
+      <div id="school-section" className="flex items-center justify-center h-screen">
+        <h1 className="text-6xl font-bold text-center text-white">
+          School
+        </h1>   
+      </div>
+      <div id="awards-section" className="flex items-center justify-center h-screen">
+        <h1 className="text-6xl font-bold text-center text-white">
+          Awards
+        </h1>   
+      </div>
+      <div id="skills-section" className="flex items-center justify-center h-screen">
+        <h1 className="text-6xl font-bold text-center text-white">
+          Skills
+        </h1>   
+      </div>
+      <GoUpButton lang={lang} text={dictionary.goUp} />
     </main>
   );
 }
