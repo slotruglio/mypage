@@ -11,6 +11,13 @@ const config: Config = {
       backgroundImage: {
         "binary-pattern": "url('/img/background.png')",
       },
+      colors: {
+        "main-brown": "#A27B5C",
+        "main-white": "#DCD7C9",
+      },
+      fontFamily: {
+        "mono": ["SourceCodePro", "monospace"],
+      }
     },
   },
   plugins: [],

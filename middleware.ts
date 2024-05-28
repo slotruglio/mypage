@@ -26,16 +26,17 @@ function getLocale(request: NextRequest): string | undefined {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
-
+  const headers = new Headers(request.headers);
+  headers.set("x-current-path", request.nextUrl.pathname);
   // // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
   // // If you have one
-  console.log(pathname);
   if (
     [
       //'/manifest.json',
       '/favicon.ico',
       '/robots.txt',
       '/img/background.png',
+      '/fonts/SourceCodePro-VariableFont_wght.ttf',
       // Your other files in `public`
     ].includes(pathname)
   )
@@ -57,9 +58,11 @@ export function middleware(request: NextRequest) {
       new URL(
         `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
         request.url,
-      ),
+      ), {headers}
     );
   }
+
+  return NextResponse.next({headers});
 }
 
 export const config = {
