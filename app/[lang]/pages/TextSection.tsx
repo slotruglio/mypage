@@ -11,7 +11,7 @@ interface Description {
     whatLink?: string;
 }
 
-function DescriptionWidget<T extends Description>({desc}: {desc:T}) {
+function DescriptionWidget<T extends Description>({ desc }: { desc: T }) {
     return <div className="flex flex-col backdrop-blur-sm bg-white/5 rounded-lg p-8">
         <div className="description-header flex flex-col lg:flex-row items-center gap-x-2">
             <p>{desc.when}. </p>
@@ -27,11 +27,14 @@ function DescriptionWidget<T extends Description>({desc}: {desc:T}) {
     </div>
 }
 
-export default async function TextSection<T extends Description>({ id, title, subtitle, descriptions }: { id: string, title: string, subtitle?: string, descriptions: T[]}) {
+export default async function TextSection<T extends Description>({ id, title, subtitle, icon, descriptions }: { id: string, title: string, subtitle?: string, icon?: string, descriptions: T[] }) {
     return <div id={id} className="flex flex-col justify-center h-screen p-2 md:p-24 gap-y-4">
-        <h1 className="text-3xl md:text-5xl font-bold text-white">
-            {title}
-        </h1>
+        <div className="flex flex-row gap-x-4">
+            <i className={icon + " text-3xl md:text-5xl"} />
+            <h1 className="text-3xl md:text-5xl font-bold text-white">
+                {title}
+            </h1>
+        </div>
         {subtitle && <h2 className="text-xl md:text-2xl font-bold text-center text-white">
             {subtitle}</h2>}
         <div className="grow flex flex-col p-4 gap-y-4 justify-center">
