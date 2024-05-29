@@ -8,5 +8,57 @@
     "work": "Lavoro",
     "school": "Educazione",
     "awards": "Premi",
-    "skills": "Skills"
+    "skills": "Skills",
+    "workTexts": [
+        {
+            "when": "2024.01 - Present",
+            "where": "SpaceX",
+            "whereLink": "https://www.spacex.com/",
+            "whereLocation": "Hawthorne, CA, USA",
+            "position": "Ground System Engineer",
+            "what": "Develop and maintain the software for the ground system of the satellite"
+        },
+        {
+            "when": "2021.07 - 2023.12",
+            "where": "Samsung Electronics",
+            "whereLink": "https://www.samsung.com/",
+            "position": "Software Engineer",
+            "what": "Develop and maintain the software for the smart TV"
+        },
+        {
+            "when": "2019.07 - 2021.06",
+            "where": "LG Electronics",
+            "whereLink": "https://www.lg.com/",
+            "position": "Software Engineer",
+            "what": "Develop and maintain the software for the smart TV"
+        }
+    ],
+    "schoolTexts": [
+        {
+            "when": "2017.03 - 2019.06",
+            "where": "Korea Advanced Institute of Science and Technology",
+            "whereLink": "https://www.kaist.ac.kr/",
+            "whereLocation": "Hawthorne, CA, USA",
+            "degree": "Master Degree in Computer Engineering",
+            "what": "Developed the software for the autonomous vehicle"
+        },
+        {
+            "when": "2013.03 - 2017.02",
+            "where": "Korea Advanced Institute of Science and Technology",
+            "whereLink": "https://www.kaist.ac.kr/",
+            "degree": "Bachelor Degree in Computer Engineering",
+            "what": "Developed the software for the autonomous vehicle"
+        }
+    ],
+    "awardsTexts": [
+        {
+            "when": "2021.12",
+            "what": "Best Paper Award",
+            "where": "IEEE International Conference on Robotics and Automation",
+            "whereLink": "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=52158"
+        }
+    ],
+    "skillsTexts": [
+
+    ]
 }

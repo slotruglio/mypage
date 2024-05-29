@@ -34,12 +34,6 @@ body {
   color: #fff;
 }
 
-.custom-arrow {
-  animation-name: bounceAlpha;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
