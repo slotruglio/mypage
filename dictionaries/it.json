@@ -3,5 +3,10 @@
     "occupation": "Ground System Engineer",
     "quote": "La fortuna aiuta gli audaci",
     "degree": "Laurea Magistrale in Ing. Informatica",
-    "goUp": "Torna su"
+    "goUp": "Torna su",
+    "scrollMoreToSeeMy": "Scorri per vedere il mio",
+    "work": "Lavoro",
+    "school": "Educazione",
+    "awards": "Premi",
+    "skills": "Skills"
 }

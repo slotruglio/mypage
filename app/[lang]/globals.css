@@ -8,7 +8,7 @@
 }
 
 :root {
-  --foreground-rgb: 0,0,0;
+  --foreground-rgb: 44, 54, 57;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,6 +32,12 @@ body {
 }
 .app-link:hover {
   color: #fff;
+}
+
+.custom-arrow {
+  animation-name: bounceAlpha;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @layer utilities {

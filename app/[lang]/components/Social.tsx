@@ -1,9 +1,9 @@
 // import from node modules
 import Link from 'next/link';
 
-const linkedinUrl = "https://www.linkedin.com/in/samuele-lo-truglio/";
-const githubUrl = "https://github.com/slotruglio";
-const innovationDays = "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
+const linkedinUrl = process.env.LINKEDIN ?? "https://www.linkedin.com/in/samuele-lo-truglio/";
+const githubUrl = process.env.GITHUB ?? "https://github.com/slotruglio";
+const innovationDays = process.env.INNOVATIONDAYS ?? "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
 
 const socialTexts = {
     "linkedin": {
@@ -40,7 +40,9 @@ function SocialFooter({social} : {social: keyof typeof socialTexts}) {
 function SocialHeader({social}: {social: keyof typeof socialTexts}) {
     const content = socialTexts[social];
     return (
-        <div>{content["title"]}:
+        <div className='flex flex-row gap-x-2'>
+            <i className={content["iconClassName"]} />
+            <p>{content["title"]}:</p>
             <Link
                 className="app-link" href={content["href"]}
                 target="_blank"
