@@ -4,11 +4,7 @@
     "quote": "La fortuna aiuta gli audaci",
     "degree": "Laurea Magistrale in Ing. Informatica",
     "goUp": "Torna su",
-    "scrollMoreToSeeMy": "Scorri per vedere il mio",
-    "work": "Esperienza",
-    "school": "Educazione",
-    "awards": "Premi",
-    "skills": "Skills",
+    "scrollMoreToSeeMy": "Scorri per vedere:",
     "sections": [
         {
             "title": "Esperienza",
@@ -59,7 +55,7 @@
                     "degree": "Bachelor Degree in Computer Engineering",
                     "what": "Developed the software for the autonomous vehicle"
                 }
-            ] 
+            ]
         },
         {
             "title": "Premi",
@@ -158,7 +154,6 @@
                         }
                     ]
                 },
-                
                 "tools": {
                     "title": "Tools",
                     "texts": [
@@ -216,14 +211,38 @@
                 "softSkills": {
                     "title": "Soft Skills",
                     "texts": [
-                        { "name": "Gestione del tempo", "level": "Avanzato" },
-                        { "name": "Comunicazione", "level": "Intermedio" },
-                        { "name": "Teamwork", "level": "Avanzato" },
-                        { "name": "Problem-Solving", "level": "Avanzato" },
-                        { "name": "Pensiero critico", "level": "Avanzato" },
-                        { "name": "Leadership", "level": "Avanzato" },
-                        { "name": "Decision Making", "level": "Avanzato" },
-                        { "name": "Flexibility", "level": "Avanzato" }
+                        {
+                            "name": "Gestione del tempo",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Comunicazione",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Teamwork",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Problem-Solving",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Pensiero critico",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Leadership",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Decision Making",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Flexibility",
+                            "level": "Avanzato"
+                        }
                     ]
                 }
             }

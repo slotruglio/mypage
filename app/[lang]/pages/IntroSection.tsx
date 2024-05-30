@@ -9,6 +9,15 @@ const tas_href = process.env.TAS_HREF ?? "https://www.thalesaleniaspace.com/"
 export default async function IntroSection({ lang }: { lang: Locale }) {
     const dictionary = await getDictionary(lang);
 
+    function getCorrectSeparator(index: number, length: number) {
+        if (index < length - 2) {
+            return ", "
+        } else if (index === length - 2) {
+            return " & "
+        }
+        return "."
+    }
+
     return <div id="intro-section" className="flex flex-col items-center justify-between h-screen p-2 md:p-24">
         <div className="flex grow flex-col w-full lg:flex-row p-8 items-center justify-center space-y-12 lg:space-y-0 lg:justify-between lg:space-x-4">
             <div className="personal space-y-4 justify-items-start text-center lg:text-start">
@@ -34,9 +43,17 @@ export default async function IntroSection({ lang }: { lang: Locale }) {
         </div>
         <div className="flex flex-col text-center">
             <div>
-                {dictionary.scrollMoreToSeeMy} <Link href={"#work-section"} className="app-link">{dictionary.work}</Link>, <Link href={"#education-section"} className="app-link">{dictionary.school}</Link>, <Link href={"#awards-section"} className="app-link">{dictionary.awards}</Link> and <Link href={"#skills-section"} className="app-link">{dictionary.skills}</Link>
+                {dictionary.scrollMoreToSeeMy}{' '}
+                {dictionary.sections.map(({ title, id }, index, array) => (
+                    <span key={index}>
+                        <Link href={`#${id}`} className="app-link">
+                            {title}
+                        </Link>
+                        {getCorrectSeparator(index, array.length)}
+                    </span>
+                ))}
             </div>
-                <i className="bi bi-chevron-double-down animate-pulse"  />
+            <i className="bi bi-chevron-double-down animate-pulse" />
 
         </div>
     </div>

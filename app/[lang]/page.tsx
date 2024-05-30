@@ -14,7 +14,7 @@ export default async function Home({
 }) {
   const dictionary = await getDictionary(lang);
   const sections = dictionary.sections;
-  
+
   function getSectionWidget(section: any, index: number) {
     if (section.id === "skills-section") {
       return <SkillSection key={index} id={section.id} icon={section.icon} title={section.title} skillsTexts={section.texts} />;

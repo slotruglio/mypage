@@ -13,7 +13,7 @@ interface SkillList {
     }
 }
 
-const levels : {[key: string] : number } = {
+const levels: { [key: string]: number } = {
     "Advanced": 100,
     "Intermediate": 75,
     "Basic": 50,
@@ -26,7 +26,7 @@ function SkillWidget({ skill }: { skill: Skill }) {
             <p className="font-medium">{skill.name} </p>
             {skill.icon && <i className={skill.icon} />}
         </div>
-        
+
     </div>
 }
 
