@@ -46,7 +46,7 @@
             "texts": [
                 {
                     "when": "2017.03 - 2019.06",
-                    "where": "Korea Advanced Institute of Science and Technology",
+                    "where": "Korea Avanzato Institute of Science and Technology",
                     "whereLink": "https://www.kaist.ac.kr/",
                     "whereLocation": "Hawthorne, CA, USA",
                     "degree": "Master Degree in Computer Engineering",
@@ -54,7 +54,7 @@
                 },
                 {
                     "when": "2013.03 - 2017.02",
-                    "where": "Korea Advanced Institute of Science and Technology",
+                    "where": "Korea Avanzato Institute of Science and Technology",
                     "whereLink": "https://www.kaist.ac.kr/",
                     "degree": "Bachelor Degree in Computer Engineering",
                     "what": "Developed the software for the autonomous vehicle"
@@ -77,37 +77,150 @@
     ],
     "skillsTexts": {
         "programmingLanguages": {
-            "title": "Programming Languages",
+            "title": "Linguaggi di Programmazione",
             "texts": [
                 {
                     "name": "Python",
-                    "level": "Advanced"
+                    "level": "Avanzato"
                 },
                 {
                     "name": "Java",
-                    "level": "Advanced"
+                    "level": "Intermedio"
                 },
                 {
-                    "name": "C++",
-                    "level": "Intermediate"
+                    "name": "JavaScript",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "TypeScript",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "Rust",
+                    "level": "Base"
+                },
+                {
+                    "name": "Dart",
+                    "level": "Base"
+                },
+                {
+                    "name": "Kotlin",
+                    "level": "Intermedio"
                 }
             ]
         },
+        "frontend": {
+            "title": "Frontend",
+            "texts": [
+                {
+                    "name": "React",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "NextJS",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Flutter",
+                    "level": "Intermedio"
+                }
+            ]
+        },
+        "backend": {
+            "title": "Backend",
+            "texts": [
+                {
+                    "name": "NodeJS",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "ExpressJS",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "Flask",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "FastAPI",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Rest API",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "ZMQ",
+                    "level": "Intermedio"
+                }
+            ]
+        },
+        
         "tools": {
             "title": "Tools",
             "texts": [
                 {
                     "name": "Git",
-                    "level": "Advanced"
+                    "level": "Avanzato"
                 },
                 {
                     "name": "Docker",
-                    "level": "Intermediate"
+                    "level": "Intermedio"
                 },
                 {
                     "name": "Kubernetes",
-                    "level": "Intermediate"
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Helm",
+                    "level": "Intermedio"
                 }
+            ]
+        },
+        "dataTools": {
+            "title": "Data Tools",
+            "texts": [
+                {
+                    "name": "Pandas",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "Numpy",
+                    "level": "Avanzato"
+                },
+                {
+                    "name": "Matplotlib",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Hadoop",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Scikit-learn",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Apache Spark",
+                    "level": "Intermedio"
+                },
+                {
+                    "name": "Jupyter Notebook",
+                    "level": "Intermedio"
+                }
+            ]
+        },
+        "softSkills": {
+            "title": "Soft Skills",
+            "texts": [
+                { "name": "Gestione del tempo", "level": "Avanzato" },
+                { "name": "Comunicazione", "level": "Intermedio" },
+                { "name": "Teamwork", "level": "Avanzato" },
+                { "name": "Problem-Solving", "level": "Avanzato" },
+                { "name": "Pensiero critico", "level": "Avanzato" },
+                { "name": "Leadership", "level": "Avanzato" },
+                { "name": "Decision Making", "level": "Avanzato" },
+                { "name": "Flexibility", "level": "Avanzato" }
             ]
         }
     }

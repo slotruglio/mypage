@@ -160,23 +160,7 @@
                 }
             ]
         },
-        "database": {
-            "title": "Database",
-            "texts": [
-                {
-                    "name": "MySQL",
-                    "level": "Advanced"
-                },
-                {
-                    "name": "PostgreSQL",
-                    "level": "Advanced"
-                },
-                {
-                    "name": "MongoDB",
-                    "level": "Intermediate"
-                }
-            ]
-        },
+        
         "tools": {
             "title": "Tools",
             "texts": [
@@ -234,23 +218,16 @@
         "softSkills": {
             "title": "Soft Skills",
             "texts": [
-                {
-                    "name": "Communication",
-                    "level": "Advanced"
-                },
-                {
-                    "name": "Teamwork",
-                    "level": "Advanced"
-                },
-                {
-                    "name": "Problem Solving",
-                    "level": "Advanced"
-                },
-                {
-                    "name": "Leadership",
-                    "level": "Intermediate"
-                }
+                { "name": "Time Management", "level": "Advanced" },
+                { "name": "Communication", "level": "Intermediate" },
+                { "name": "Teamwork", "level": "Advanced" },
+                { "name": "Problem-Solving", "level": "Advanced" },
+                { "name": "Critical Thinking", "level": "Advanced" },
+                { "name": "Leadership", "level": "Advanced" },
+                { "name": "Decision Making", "level": "Advanced" },
+                { "name": "Flexibility", "level": "Advanced" }
             ]
+            
         }
     }
 }
