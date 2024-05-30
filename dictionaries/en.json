@@ -49,18 +49,21 @@
             "id": "school-section",
             "texts": [
                 {
-                    "when": "2017.03 - 2019.06",
-                    "where": "Korea Advanced Institute of Science and Technology",
-                    "whereLink": "https://www.kaist.ac.kr/",
-                    "degree": "Master Degree in Computer Engineering",
-                    "what": "Developed the software for the autonomous vehicle"
+                    "when": "2021.09 - 2023.10",
+                    "where": "Politecnico di Torino",
+                    "whereLink": "https://www.polito.it/",
+                    "whereLocation": "Turin, Italy",
+                    "degree": "M.C.S in Computer Engineering",
+                    "what": "Focus on Artificial Intelligence and Data Analytics.\nThesis:  'From Analysis to Application: Employing AI to Enhance User Experience at ESA'",
+                    "whatLink": "https://webthesis.biblio.polito.it/28494/"
                 },
                 {
-                    "when": "2013.03 - 2017.02",
-                    "where": "Korea Advanced Institute of Science and Technology",
-                    "whereLink": "https://www.kaist.ac.kr/",
-                    "degree": "Bachelor Degree in Computer Engineering",
-                    "what": "Developed the software for the autonomous vehicle"
+                    "when": "2018.09 - 2021.07",
+                    "where": "Università degli Studi di Palermo",
+                    "whereLink": "https://www.unipa.it/",
+                    "whereLocation": "Palermo, Italy",
+                    "degree": "B.C.S in Computer Science and Engineering",
+                    "what": "Graduated with honors."
                 }
             ]
         },
@@ -70,17 +73,15 @@
             "id": "awards-section",
             "texts": [
                 {
-                    "when": "2021.12",
-                    "what": "Best Paper Award",
-                    "where": "IEEE International Conference on Robotics and Automation",
-                    "whereLink": "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=52158",
-                    "whatLink": "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=52158"
+                    "when": "2024",
+                    "what": "UX Awards",
+                    "where": "Thales"
                 },
                 {
-                    "when": "2021.12",
-                    "what": "Best Paper Award",
-                    "where": "IEEE International Conference on Robotics and Automation",
-                    "whereLink": "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=52158"
+                    "when": "2020",
+                    "what": "Innovation Days.\nDesign of Safety Jacket for workers.",
+                    "where": "EIT HEALTH",
+                    "whereLink": "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
                 }
             ]
         },
