@@ -13,25 +13,33 @@
             "texts": [
                 {
                     "when": "2024.01 - Present",
-                    "where": "SpaceX",
-                    "whereLink": "https://www.spacex.com/",
-                    "whereLocation": "Hawthorne, CA, USA",
+                    "where": "Thales Alenia Space",
+                    "whereLink": "https://www.thalesaleniaspace.com/",
+                    "whereLocation": "Rome, Italy",
                     "position": "Ground System Engineer",
-                    "what": "Develop and maintain the software for the ground system of the satellite"
+                    "what": "Design and Development of Mission Planner for PLATiNO & IRIDE Space Programmes.\nConducting manual and automated testing of ground segment software applications.\nImplementing robust Kubernetes solutions and optimizing DevOps workflow."
                 },
                 {
-                    "when": "2021.07 - 2023.12",
-                    "where": "Samsung Electronics",
-                    "whereLink": "https://www.samsung.com/",
-                    "position": "Software Engineer",
-                    "what": "Develop and maintain the software for the smart TV"
+                    "when": "2023.10 - 2023.12",
+                    "where": "IBM - Client Innovaction Center",
+                    "position": "Cloud Full Stack Developer",
+                    "what": "Designing and developing React Web App for Bank Software."
                 },
                 {
-                    "when": "2019.07 - 2021.06",
-                    "where": "LG Electronics",
-                    "whereLink": "https://www.lg.com/",
-                    "position": "Software Engineer",
-                    "what": "Develop and maintain the software for the smart TV"
+                    "when": "2023.03 - 2023.08",
+                    "where": "ESA/ESRIN",
+                    "whereLink": "https://www.esa.int/",
+                    "whereLocation": "Frascati, Italy",
+                    "position": "Mission Management and Ground Seg. Intern",
+                    "what": "Designing and developing recommendation systems in Python using AI libraries.\nImplementation, experimentation and analysis of offline virtual assistant using Python and HuggingFace models.\nDesign and Implementation of a Web App using Docker, React, ExpresJS, Flask and MongoDB."
+                },
+                {
+                    "when": "2017.03 - 2017.06",
+                    "where": "International House",
+                    "whereLink": "https://ihpalermo.com/",
+                    "whereLocation": "Palermo, Italy",
+                    "position": "IT Assistant",
+                    "what": "Writing contents for www.ihitaly.it and www.ihpalermo.com.\nTranslation of texts from italian to english and viceversa.\nDesignin posters on Adobe InDesign, Adobe FireWorks and Adobe Photoshop."
                 }
             ]
         },
