@@ -31,8 +31,8 @@ function SkillWidget({ skill }: { skill: Skill }) {
 }
 
 export default async function SkillSection({ id, title, icon, skillsTexts }: { id: string, title: string, icon: string, skillsTexts: SkillList }) {
-    return <div id={id} className="flex flex-col justify-center h-screen p-2 md:p-24 gap-y-4">
-        <div className="flex flex-row gap-x-2">
+    return <div id={id} className="flex flex-col justify-center lg:h-screen p-8 md:p-24 gap-y-4">
+        <div className="flex flex-row gap-x-4">
             <i className={icon + " text-3xl md:text-5xl"} />
             <h1 className="text-3xl md:text-5xl font-bold text-white">
                 {title}
