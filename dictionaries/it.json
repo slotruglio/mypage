@@ -75,7 +75,40 @@
             ]
         }
     ],
-    "skillsTexts": [
-
-    ]
+    "skillsTexts": {
+        "programmingLanguages": {
+            "title": "Programming Languages",
+            "texts": [
+                {
+                    "name": "Python",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Java",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "C++",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "tools": {
+            "title": "Tools",
+            "texts": [
+                {
+                    "name": "Git",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Docker",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Kubernetes",
+                    "level": "Intermediate"
+                }
+            ]
+        }
+    }
 }

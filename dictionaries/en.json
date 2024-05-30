@@ -80,5 +80,177 @@
             ]
         }
     ],
-    "skillsTexts": []
+    "skillsTexts": {
+        "programmingLanguages": {
+            "title": "Programming Languages",
+            "texts": [
+                {
+                    "name": "Python",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Java",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "JavaScript",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "TypeScript",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Rust",
+                    "level": "Basic"
+                },
+                {
+                    "name": "Dart",
+                    "level": "Basic"
+                },
+                {
+                    "name": "Kotlin",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "frontend": {
+            "title": "Frontend",
+            "texts": [
+                {
+                    "name": "React",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "NextJS",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Flutter",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "backend": {
+            "title": "Backend",
+            "texts": [
+                {
+                    "name": "NodeJS",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "ExpressJS",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Flask",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "FastAPI",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Rest API",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "ZMQ",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "database": {
+            "title": "Database",
+            "texts": [
+                {
+                    "name": "MySQL",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "MongoDB",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "tools": {
+            "title": "Tools",
+            "texts": [
+                {
+                    "name": "Git",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Docker",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Kubernetes",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Helm",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "dataTools": {
+            "title": "Data Tools",
+            "texts": [
+                {
+                    "name": "Pandas",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Numpy",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Matplotlib",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Hadoop",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Scikit-learn",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Apache Spark",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "Jupyter Notebook",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        "softSkills": {
+            "title": "Soft Skills",
+            "texts": [
+                {
+                    "name": "Communication",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Teamwork",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Problem Solving",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "Leadership",
+                    "level": "Intermediate"
+                }
+            ]
+        }
+    }
 }

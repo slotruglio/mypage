@@ -4,6 +4,7 @@ import LanguageButton from "./components/LanguageButtons";
 import IntroSection from "./pages/IntroSection";
 import TextSection from "./pages/TextSection";
 import Footer from "./components/Footer";
+import SkillSection from "./pages/SkillsSection";
 
 
 export default async function Home({
@@ -23,7 +24,7 @@ export default async function Home({
       {sections.map((section, index) => (
         <TextSection key={index} id={section.id} title={section.title} icon={section.icon} descriptions={section.texts} />
       ))}
-      <TextSection id="skills-section" title={dictionary.skills} descriptions={dictionary.skillsTexts} />
+      <SkillSection id="skills-section" icon="bi bi-ciao" title={dictionary.skills} skillsTexts={dictionary.skillsTexts} />
       <Footer lang={lang} dictionary={dictionary} />
     </main>
   );
