@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_URL ?? 'https://slotruglio.github.io',
+    process.env.NEXT_PUBLIC_URL ?? process.env.VERCEL_URL ?? '',
   ),
   title: 'Samuele Lo Truglio - Website',
   description: 'Personal Website of Samuele Lo Truglio',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: process.env.NEXT_PUBLIC_URL ?? 'https://slotruglio.github.io',
+    url: process.env.NEXT_PUBLIC_URL ?? process.env.VERCEL_URL,
     siteName: 'Samuele Lo Truglio',
     title: 'Samuele Lo Truglio',
     description: 'Personal Website of Samuele Lo Truglio',
