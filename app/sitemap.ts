@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const url = process.env.DOMAIN ?? 'https://slotruglio.github.io';
+const url = process.env.NEXT_PUBLIC_URL ?? 'https://slotruglio.github.io';
 const github_url = process.env.GITHUB_URL ?? 'https://slotruglio.github.io';
 
 export default function sitemap(): MetadataRoute.Sitemap {
