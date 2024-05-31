@@ -24,23 +24,23 @@ function LanguageButton({ lang }: { lang: Locale }) {
   }
 
   return (
-      <div className="row divide-x divide-gray-800">
-        {radios.map(({ name, value }, index) => (
-          <button
-            key={index}
-            disabled={value === lang}
-            type="button"
-            className={getClassName(index)}
-            onClick={() =>
-              replace(pathname.replace(`/${lang}`, `/${value}`), {
-                scroll: false,
-              })
-            }
-          >
-            {name}{' '}
-          </button>
-        ))}
-      </div>
+    <div className="row divide-x divide-gray-800">
+      {radios.map(({ name, value }, index) => (
+        <button
+          key={index}
+          disabled={value === lang}
+          type="button"
+          className={getClassName(index)}
+          onClick={() =>
+            replace(pathname.replace(`/${lang}`, `/${value}`), {
+              scroll: false,
+            })
+          }
+        >
+          {name}{' '}
+        </button>
+      ))}
+    </div>
   );
 }
 
