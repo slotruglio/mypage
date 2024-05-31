@@ -5,6 +5,15 @@
     "degree": "Laurea Magistrale in Ing. Informatica",
     "goUp": "Torna su",
     "scrollMoreToSeeMy": "Scorri per vedere:",
+    "disclaimer": "Questo sito web è ancora un work in progress. Utilizza due servizi forniti da Vercel per Web Analytics e Speed Insights. Nessun dato personale viene utilizzato. Se vuoi saperne di più, visita i seguenti link:",
+    "SpeedInsightsPolicy": {
+        "url":"https://vercel.com/docs/speed-insights/privacy-policy",
+        "text":"Speed Insights Privacy Policy"
+    },
+    "WebAnalyticsPolicy": {
+        "url":"https://vercel.com/docs/analytics/privacy-policy",
+        "text":"Web Analytics Privacy Policy"
+    },
     "sections": [
         {
             "title": "Introduzione",

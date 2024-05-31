@@ -6,6 +6,7 @@ import TextSection from './pages/TextSection';
 import Footer from './components/Footer';
 import SkillSection from './pages/SkillsSection';
 import Header from './components/Header';
+import Disclaimer from './components/Disclaimer';
 
 export default async function Home({
   params: { lang },
@@ -46,6 +47,7 @@ export default async function Home({
       <Header lang={lang} dictionary={dictionary} />
       {sections.map((section, index) => getSectionWidget(section, index))}
       <Footer lang={lang} dictionary={dictionary} />
+      <Disclaimer lang={lang} dictionary={dictionary} />
     </main>
   );
 }
