@@ -5,6 +5,15 @@
     "degree": "Master Degree in Computer Engineering",
     "goUp": "Go Up",
     "scrollMoreToSeeMy": "Scroll more to see my",
+    "disclaimer": "This website is a work in progress. It uses two tools provided by Vercel for Web Analytics and Speed Insights. No personal data is collected. If you want to know more, please visit the following links:",
+    "SpeedInsightsPolicy": {
+        "url":"https://vercel.com/docs/speed-insights/privacy-policy",
+        "text":"Speed Insights Privacy Policy"
+    },
+    "WebAnalyticsPolicy": {
+        "url":"https://vercel.com/docs/analytics/privacy-policy",
+        "text":"Web Analytics Privacy Policy"
+    },
     "sections": [
         {
             "title": "Introduction",
