@@ -45,9 +45,9 @@ export default async function SkillSection({
   return (
     <div
       id={id}
-      className="flex flex-col justify-center gap-y-4 p-8 md:p-24 lg:h-screen"
+      className="flex flex-col justify-center gap-y-4 p-4 md:p-16 lg:h-screen"
     >
-      <div className="flex flex-row gap-x-4">
+      <div className="flex flex-row gap-x-2">
         <i className={icon + 'text-3xl md:text-5xl'} />
         <h1 className="text-3xl font-bold text-white md:text-5xl">{title}</h1>
       </div>

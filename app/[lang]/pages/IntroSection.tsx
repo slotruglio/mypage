@@ -21,7 +21,7 @@ export default async function IntroSection({ lang }: { lang: Locale }) {
   return (
     <div
       id="intro-section"
-      className="flex h-screen flex-col items-center justify-between p-2 md:p-24"
+      className="flex h-screen flex-col items-center justify-between p-2 md:p-16"
     >
       <div className="flex w-full grow flex-col items-center justify-center space-y-12 p-8 lg:flex-row lg:justify-between lg:space-x-4 lg:space-y-0">
         <div className="personal justify-items-start space-y-4 text-center lg:text-start">

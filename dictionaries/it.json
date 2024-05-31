@@ -76,10 +76,15 @@
             "id": "awards-section",
             "texts": [
                 {
-                    "when": "2021.12",
-                    "what": "Best Paper Award",
-                    "where": "IEEE International Conference on Robotics and Automation",
-                    "whereLink": "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=52158"
+                    "when": "2024",
+                    "what": "UX Awards",
+                    "where": "Thales"
+                },
+                {
+                    "when": "2020",
+                    "what": "Innovation Days.\nProgettazione di una tuta anti infortunistica.",
+                    "where": "EIT HEALTH",
+                    "whereLink": "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
                 }
             ]
         },

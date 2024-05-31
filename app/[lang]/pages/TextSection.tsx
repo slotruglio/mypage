@@ -13,7 +13,7 @@ interface Description {
 
 function DescriptionWidget<T extends Description>({ desc }: { desc: T }) {
   return (
-    <div className="flex flex-col rounded-lg bg-white/5 p-8 backdrop-blur-sm">
+    <div className="flex flex-col rounded-lg bg-white/5 p-4 backdrop-blur-sm">
       <div className="description-header flex flex-col gap-x-2 sm:items-start md:items-center lg:flex-row">
         <p>{desc.when}. </p>
         {desc.position && <p className="font-bold">{desc.position} </p>}
@@ -67,7 +67,7 @@ export default async function TextSection<T extends Description>({
   return (
     <div
       id={id}
-      className="flex flex-col justify-center gap-y-4 p-8 md:p-24 lg:h-screen"
+      className="flex flex-col justify-center gap-y-4 p-8 md:p-16 lg:h-screen"
     >
       <div className="flex flex-row gap-x-4">
         <i className={icon + 'text-3xl md:text-5xl'} />
