@@ -24,8 +24,7 @@ function LanguageButton({ lang }: { lang: Locale }) {
   }
 
   return (
-    <div className="grid w-full place-items-end overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
-      <div className="row flex divide-x divide-gray-800">
+      <div className="row divide-x divide-gray-800">
         {radios.map(({ name, value }, index) => (
           <button
             key={index}
@@ -42,7 +41,6 @@ function LanguageButton({ lang }: { lang: Locale }) {
           </button>
         ))}
       </div>
-    </div>
   );
 }
 

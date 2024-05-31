@@ -5,6 +5,7 @@ import IntroSection from './pages/IntroSection';
 import TextSection from './pages/TextSection';
 import Footer from './components/Footer';
 import SkillSection from './pages/SkillsSection';
+import Header from './components/Header';
 
 export default async function Home({
   params: { lang },
@@ -40,9 +41,7 @@ export default async function Home({
 
   return (
     <main className="min-h-screen bg-binary-pattern bg-fixed font-mono text-main-white">
-      <div id="header" className="header fixed right-0 top-0 z-40">
-        <LanguageButton lang={lang} />
-      </div>
+      <Header lang={lang} dictionary={dictionary} />
       <IntroSection lang={lang} />
       {sections.map((section, index) => getSectionWidget(section, index))}
       <Footer lang={lang} dictionary={dictionary} />
