@@ -7,6 +7,11 @@
     "scrollMoreToSeeMy": "Scorri per vedere:",
     "sections": [
         {
+            "title": "Introduzione",
+            "icon": "bi bi-info-circle",
+            "id": "intro-section"
+        },
+        {
             "title": "Esperienza",
             "icon": "bi bi-briefcase",
             "id": "work-section",
