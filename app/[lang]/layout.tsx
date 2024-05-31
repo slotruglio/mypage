@@ -7,7 +7,9 @@ import { i18n, type Locale } from '../../i18n-config';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL ?? 'https://slotruglio.github.io'),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_URL ?? 'https://slotruglio.github.io',
+  ),
   title: 'Samuele Lo Truglio - Website',
   description: 'Personal Website of Samuele Lo Truglio',
   keywords: process.env.KEYWORDS ?? '',
