@@ -1,0 +1,271 @@
+{
+    "hello": "hello",
+    "occupation": "Ground System Engineer",
+    "quote": "Fortune favors the brave",
+    "degree": "Master Degree in Computer Engineering",
+    "goUp": "Go Up",
+    "scrollMoreToSeeMy": "Scroll more to see my",
+    "sections": [
+        {
+            "title": "Introduction",
+            "icon": "bi bi-info-circle",
+            "id": "intro-section"
+        },
+        {
+            "title": "Experience",
+            "icon": "bi bi-briefcase",
+            "id": "work-section",
+            "texts": [
+                {
+                    "when": "2024.01 - Present",
+                    "where": "Thales Alenia Space",
+                    "whereLink": "https://www.thalesaleniaspace.com/",
+                    "whereLocation": "Rome, Italy",
+                    "position": "Ground System Engineer",
+                    "what": "Design and Development of Mission Planner for PLATiNO & IRIDE Space Programmes.\nConducting manual and automated testing of ground segment software applications.\nImplementing robust Kubernetes solutions and optimizing DevOps workflow."
+                },
+                {
+                    "when": "2023.10 - 2023.12",
+                    "where": "IBM - Client Innovaction Center",
+                    "position": "Cloud Full Stack Developer",
+                    "what": "Designing and developing React Web App for Bank Software."
+                },
+                {
+                    "when": "2023.03 - 2023.08",
+                    "where": "ESA/ESRIN",
+                    "whereLink": "https://www.esa.int/",
+                    "whereLocation": "Frascati, Italy",
+                    "position": "Mission Management and Ground Seg. Intern",
+                    "what": "Designing and developing recommendation systems in Python using AI libraries.\nImplementation, experimentation and analysis of offline virtual assistant using Python and HuggingFace models.\nDesign and Implementation of a Web App using Docker, React, ExpresJS, Flask and MongoDB."
+                },
+                {
+                    "when": "2017.03 - 2017.06",
+                    "where": "International House",
+                    "whereLink": "https://ihpalermo.com/",
+                    "whereLocation": "Palermo, Italy",
+                    "position": "IT Assistant",
+                    "what": "Writing contents for www.ihitaly.it and www.ihpalermo.com.\nTranslation of texts from italian to english and viceversa.\nDesignin posters on Adobe InDesign, Adobe FireWorks and Adobe Photoshop."
+                }
+            ]
+        },
+        {
+            "title": "Education",
+            "icon": "bi bi-easel",
+            "id": "school-section",
+            "texts": [
+                {
+                    "when": "2021.09 - 2023.10",
+                    "where": "Politecnico di Torino",
+                    "whereLink": "https://www.polito.it/",
+                    "whereLocation": "Turin, Italy",
+                    "degree": "M.C.S in Computer Engineering",
+                    "what": "Focus on Artificial Intelligence and Data Analytics.\nThesis:  'From Analysis to Application: Employing AI to Enhance User Experience at ESA'",
+                    "whatLink": "https://webthesis.biblio.polito.it/28494/"
+                },
+                {
+                    "when": "2018.09 - 2021.07",
+                    "where": "Università degli Studi di Palermo",
+                    "whereLink": "https://www.unipa.it/",
+                    "whereLocation": "Palermo, Italy",
+                    "degree": "B.C.S in Computer Science and Engineering",
+                    "what": "Graduated with honors."
+                }
+            ]
+        },
+        {
+            "title": "Awards",
+            "icon": "bi bi-award",
+            "id": "awards-section",
+            "texts": [
+                {
+                    "when": "2024",
+                    "what": "UX Awards",
+                    "where": "Thales"
+                },
+                {
+                    "when": "2020",
+                    "what": "Innovation Days.\nDesign of Safety Jacket for workers.",
+                    "where": "EIT HEALTH",
+                    "whereLink": "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "icon": "bi bi-tools",
+            "id": "skills-section",
+            "texts": {
+                "programmingLanguages": {
+                    "title": "Programming Languages",
+                    "texts": [
+                        {
+                            "name": "Python",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Java",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "JavaScript",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "TypeScript",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Rust",
+                            "level": "Basic"
+                        },
+                        {
+                            "name": "Dart",
+                            "level": "Basic"
+                        },
+                        {
+                            "name": "Kotlin",
+                            "level": "Intermediate"
+                        }
+                    ]
+                },
+                "frontend": {
+                    "title": "Frontend",
+                    "texts": [
+                        {
+                            "name": "React",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "NextJS",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Flutter",
+                            "level": "Intermediate"
+                        }
+                    ]
+                },
+                "backend": {
+                    "title": "Backend",
+                    "texts": [
+                        {
+                            "name": "NodeJS",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "ExpressJS",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Flask",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "FastAPI",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Rest API",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "ZMQ",
+                            "level": "Intermediate"
+                        }
+                    ]
+                },
+                "tools": {
+                    "title": "Tools",
+                    "texts": [
+                        {
+                            "name": "Git",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Docker",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Kubernetes",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Helm",
+                            "level": "Intermediate"
+                        }
+                    ]
+                },
+                "dataTools": {
+                    "title": "Data Tools",
+                    "texts": [
+                        {
+                            "name": "Pandas",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Numpy",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Matplotlib",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Hadoop",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Scikit-learn",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Apache Spark",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Jupyter Notebook",
+                            "level": "Intermediate"
+                        }
+                    ]
+                },
+                "softSkills": {
+                    "title": "Soft Skills",
+                    "texts": [
+                        {
+                            "name": "Time Management",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Communication",
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "Teamwork",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Problem-Solving",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Critical Thinking",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Leadership",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Decision Making",
+                            "level": "Advanced"
+                        },
+                        {
+                            "name": "Flexibility",
+                            "level": "Advanced"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

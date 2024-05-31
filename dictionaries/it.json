@@ -1,0 +1,264 @@
+{
+    "hello": "ciao",
+    "occupation": "Ground System Engineer",
+    "quote": "La fortuna aiuta gli audaci",
+    "degree": "Laurea Magistrale in Ing. Informatica",
+    "goUp": "Torna su",
+    "scrollMoreToSeeMy": "Scorri per vedere:",
+    "sections": [
+        {
+            "title": "Introduzione",
+            "icon": "bi bi-info-circle",
+            "id": "intro-section"
+        },
+        {
+            "title": "Esperienza",
+            "icon": "bi bi-briefcase",
+            "id": "work-section",
+            "texts": [
+                {
+                    "when": "2024.01 - Present",
+                    "where": "Thales Alenia Space",
+                    "whereLink": "https://www.thalesaleniaspace.com/",
+                    "whereLocation": "Rome, Italy",
+                    "position": "Ground System Engineer",
+                    "what": "Design and Development of Mission Planner for PLATiNO & IRIDE Space Programmes.\nConducting manual and automated testing of ground segment software applications.\nImplementing robust Kubernetes solutions and optimizing DevOps workflow."
+                },
+                {
+                    "when": "2023.10 - 2023.12",
+                    "where": "IBM - Client Innovaction Center",
+                    "position": "Cloud Full Stack Developer",
+                    "what": "Designing and developing React Web App for Bank Software."
+                },
+                {
+                    "when": "2023.03 - 2023.08",
+                    "where": "ESA/ESRIN",
+                    "whereLink": "https://www.esa.int/",
+                    "whereLocation": "Frascati, Italy",
+                    "position": "Mission Management and Ground Seg. Intern",
+                    "what": "Designing and developing recommendation systems in Python using AI libraries.\nImplementation, experimentation and analysis of offline virtual assistant using Python and HuggingFace models.\nDesign and Implementation of a Web App using Docker, React, ExpresJS, Flask and MongoDB."
+                },
+                {
+                    "when": "2017.03 - 2017.06",
+                    "where": "International House",
+                    "whereLink": "https://ihpalermo.com/",
+                    "whereLocation": "Palermo, Italy",
+                    "position": "IT Assistant",
+                    "what": "Writing contents for www.ihitaly.it and www.ihpalermo.com.\nTranslation of texts from italian to english and viceversa.\nDesignin posters on Adobe InDesign, Adobe FireWorks and Adobe Photoshop."
+                }
+            ]
+        },
+        {
+            "title": "Educazione",
+            "icon": "bi bi-easel",
+            "id": "school-section",
+            "texts": [
+                {
+                    "when": "2017.03 - 2019.06",
+                    "where": "Korea Avanzato Institute of Science and Technology",
+                    "whereLink": "https://www.kaist.ac.kr/",
+                    "whereLocation": "Hawthorne, CA, USA",
+                    "degree": "Master Degree in Computer Engineering",
+                    "what": "Developed the software for the autonomous vehicle"
+                },
+                {
+                    "when": "2013.03 - 2017.02",
+                    "where": "Korea Avanzato Institute of Science and Technology",
+                    "whereLink": "https://www.kaist.ac.kr/",
+                    "degree": "Bachelor Degree in Computer Engineering",
+                    "what": "Developed the software for the autonomous vehicle"
+                }
+            ]
+        },
+        {
+            "title": "Premi",
+            "icon": "bi bi-award",
+            "id": "awards-section",
+            "texts": [
+                {
+                    "when": "2021.12",
+                    "what": "Best Paper Award",
+                    "where": "IEEE International Conference on Robotics and Automation",
+                    "whereLink": "https://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=52158"
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "icon": "bi bi-tools",
+            "id": "skills-section",
+            "texts": {
+                "programmingLanguages": {
+                    "title": "Linguaggi di Programmazione",
+                    "texts": [
+                        {
+                            "name": "Python",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Java",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "JavaScript",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "TypeScript",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Rust",
+                            "level": "Base"
+                        },
+                        {
+                            "name": "Dart",
+                            "level": "Base"
+                        },
+                        {
+                            "name": "Kotlin",
+                            "level": "Intermedio"
+                        }
+                    ]
+                },
+                "frontend": {
+                    "title": "Frontend",
+                    "texts": [
+                        {
+                            "name": "React",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "NextJS",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Flutter",
+                            "level": "Intermedio"
+                        }
+                    ]
+                },
+                "backend": {
+                    "title": "Backend",
+                    "texts": [
+                        {
+                            "name": "NodeJS",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "ExpressJS",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Flask",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "FastAPI",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Rest API",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "ZMQ",
+                            "level": "Intermedio"
+                        }
+                    ]
+                },
+                "tools": {
+                    "title": "Tools",
+                    "texts": [
+                        {
+                            "name": "Git",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Docker",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Kubernetes",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Helm",
+                            "level": "Intermedio"
+                        }
+                    ]
+                },
+                "dataTools": {
+                    "title": "Data Tools",
+                    "texts": [
+                        {
+                            "name": "Pandas",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Numpy",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Matplotlib",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Hadoop",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Scikit-learn",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Apache Spark",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Jupyter Notebook",
+                            "level": "Intermedio"
+                        }
+                    ]
+                },
+                "softSkills": {
+                    "title": "Soft Skills",
+                    "texts": [
+                        {
+                            "name": "Gestione del tempo",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Comunicazione",
+                            "level": "Intermedio"
+                        },
+                        {
+                            "name": "Teamwork",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Problem-Solving",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Pensiero critico",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Leadership",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Decision Making",
+                            "level": "Avanzato"
+                        },
+                        {
+                            "name": "Flexibility",
+                            "level": "Avanzato"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SourceCodePro";
+  src: url("/fonts/SourceCodePro-VariableFont_wght.ttf");
+}
+
+:root {
+  --foreground-rgb: 44, 54, 57;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 44, 54, 57;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--foreground-rgb));
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app-link {
+  color: #b1b4b5;
+  text-decoration: none;
+}
+
+.app-link:hover {
+  color: #fff;
+}
+
+.section-menu {
+  transition: all 2s ease-in-out;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
