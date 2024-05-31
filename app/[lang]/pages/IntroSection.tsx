@@ -25,10 +25,15 @@ export default async function IntroSection({ lang }: { lang: Locale }) {
     >
       <div className="flex w-full grow flex-col items-center justify-center space-y-12 p-8 lg:flex-row lg:justify-between lg:space-x-4 lg:space-y-0">
         <div className="personal justify-items-start space-y-4 text-center lg:text-start">
-          <h1 className="text-3xl font-bold text-main-brown md:text-5xl">
-            Samuele Lo Truglio
-          </h1>
-          <h3 className="text-m text-main-white md:text-xl">
+          <div className="flex flex-col lg:flex-row lg:gap-x-8">
+            <h1 className="text-3xl font-bold text-main-brown md:text-5xl">
+              Samuele
+            </h1>
+            <h1 className="text-3xl font-bold text-main-brown md:text-5xl">
+              Lo Truglio
+            </h1>
+          </div>
+          <h2 className="text-m text-main-white md:text-xl">
             🌎 {dictionary.occupation}{' '}
             <Link
               href={tas_href}
@@ -38,8 +43,8 @@ export default async function IntroSection({ lang }: { lang: Locale }) {
             >
               @Thales Alenia Space
             </Link>{' '}
-          </h3>
-          <h3 className="text-m text-main-white md:text-xl">
+          </h2>
+          <h2 className="text-m text-main-white md:text-xl">
             🎓 {dictionary.degree}{' '}
             <Link
               href={polito_href}
@@ -49,7 +54,7 @@ export default async function IntroSection({ lang }: { lang: Locale }) {
             >
               @Politecnico di Torino
             </Link>{' '}
-          </h3>
+          </h2>
         </div>
         <div className="social flex flex-col md:flex-row md:space-x-4 lg:flex-col lg:space-x-0">
           <SocialHeader social="linkedin" />
