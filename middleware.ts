@@ -1,10 +1,10 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-import { i18n } from "./i18n-config";
+import { i18n } from './i18n-config';
 
-import { match as matchLocale } from "@formatjs/intl-localematcher";
-import Negotiator from "negotiator";
+import { match as matchLocale } from '@formatjs/intl-localematcher';
+import Negotiator from 'negotiator';
 
 function getLocale(request: NextRequest): string | undefined {
   // Negotiator expects plain object so we need to transform headers
@@ -27,12 +27,11 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   const headers = new Headers(request.headers);
-  headers.set("x-current-path", request.nextUrl.pathname);
+  headers.set('x-current-path', request.nextUrl.pathname);
   // // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
   // // If you have one
   if (
     [
-      //'/manifest.json',
       '/favicon.ico',
       '/robots.txt',
       '/img/background.png',
@@ -40,7 +39,7 @@ export function middleware(request: NextRequest) {
       // Your other files in `public`
     ].includes(pathname)
   )
-    return
+    return;
 
   // Check if there is any supported locale in the pathname
   const pathnameIsMissingLocale = i18n.locales.every(
@@ -56,16 +55,17 @@ export function middleware(request: NextRequest) {
     // The new URL is now /en-US/products
     return NextResponse.redirect(
       new URL(
-        `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+        `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
         request.url,
-      ), {headers}
+      ),
+      { headers },
     );
   }
 
-  return NextResponse.next({headers});
+  return NextResponse.next({ headers });
 }
 
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"],
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 };
