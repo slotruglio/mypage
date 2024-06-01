@@ -28,7 +28,7 @@ export default async function Home({
         />
       );
     } else if (section.id === 'intro-section') {
-      return <IntroSection key={index} lang={lang} />;
+      return <IntroSection key={index} dictionary={dictionary} />;
     }
     return (
       <TextSection

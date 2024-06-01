@@ -1,4 +1,3 @@
-import { getDictionary } from '@/get-dictionary';
 import { Locale } from '@/i18n-config';
 import Link from 'next/link';
 import { SocialHeader } from '../components/Social';
@@ -6,9 +5,11 @@ import { SocialHeader } from '../components/Social';
 const polito_href = process.env.POLITO_HREF ?? 'https://www.polito.it';
 const tas_href = process.env.TAS_HREF ?? 'https://www.thalesaleniaspace.com/';
 
-export default async function IntroSection({ lang }: { lang: Locale }) {
-  const dictionary = await getDictionary(lang);
-
+export default async function IntroSection({
+  dictionary,
+}: {
+  dictionary: any;
+}) {
   function getCorrectSeparator(index: number, length: number) {
     if (index < length - 2) {
       return ', ';
@@ -69,14 +70,20 @@ export default async function IntroSection({ lang }: { lang: Locale }) {
       <div className="flex flex-col text-center">
         <div>
           {dictionary.scrollMoreToSeeMy}{' '}
-          {dictionary.sections.map(({ title, id }, index, array) => (
-            <span key={index}>
-              <Link href={`#${id}`} className="app-link">
-                {title}
-              </Link>
-              {getCorrectSeparator(index, array.length)}
-            </span>
-          ))}
+          {dictionary.sections.map(
+            (
+              { title, id }: { title: string; id: string },
+              index: number,
+              array: any,
+            ) => (
+              <span key={index}>
+                <Link href={`#${id}`} className="app-link">
+                  {title}
+                </Link>
+                {getCorrectSeparator(index, array.length)}
+              </span>
+            ),
+          )}
         </div>
         <i className="bi bi-chevron-double-down animate-pulse" />
       </div>

@@ -1,5 +1,4 @@
 {
-    "hello": "hello",
     "occupation": "Ground System Engineer",
     "quote": "Fortune favors the brave",
     "degree": "Master Degree in Computer Engineering",
@@ -67,7 +66,7 @@
                     "where": "Politecnico di Torino",
                     "whereLink": "https://www.polito.it/",
                     "whereLocation": "Turin, Italy",
-                    "degree": "M.C.S in Computer Engineering",
+                    "degree": "Master's Degree in Computer Engineering",
                     "what": "Focus on Artificial Intelligence and Data Analytics.\nThesis:  'From Analysis to Application: Employing AI to Enhance User Experience at ESA'",
                     "whatLink": "https://webthesis.biblio.polito.it/28494/"
                 },
@@ -76,7 +75,7 @@
                     "where": "Università degli Studi di Palermo",
                     "whereLink": "https://www.unipa.it/",
                     "whereLocation": "Palermo, Italy",
-                    "degree": "B.C.S in Computer Science and Engineering",
+                    "degree": "Bachelor's Degree in Computer Engineering",
                     "what": "Graduated with honors."
                 }
             ]
@@ -151,6 +150,10 @@
                         {
                             "name": "Flutter",
                             "level": "Intermediate"
+                        },
+                        {
+                            "name": "HTML & CSS",
+                            "level": "Advanced"
                         }
                     ]
                 },

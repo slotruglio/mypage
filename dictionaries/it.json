@@ -1,5 +1,4 @@
 {
-    "hello": "ciao",
     "occupation": "Ground System Engineer",
     "quote": "La fortuna aiuta gli audaci",
     "degree": "Laurea Magistrale in Ing. Informatica",
@@ -29,7 +28,7 @@
                     "when": "2024.01 - Present",
                     "where": "Thales Alenia Space",
                     "whereLink": "https://www.thalesaleniaspace.com/",
-                    "whereLocation": "Rome, Italy",
+                    "whereLocation": "Roma, Italia",
                     "position": "Ground System Engineer",
                     "what": "Design and Development of Mission Planner for PLATiNO & IRIDE Space Programmes.\nConducting manual and automated testing of ground segment software applications.\nImplementing robust Kubernetes solutions and optimizing DevOps workflow."
                 },
@@ -43,7 +42,7 @@
                     "when": "2023.03 - 2023.08",
                     "where": "ESA/ESRIN",
                     "whereLink": "https://www.esa.int/",
-                    "whereLocation": "Frascati, Italy",
+                    "whereLocation": "Frascati, Italia",
                     "position": "Mission Management and Ground Seg. Intern",
                     "what": "Designing and developing recommendation systems in Python using AI libraries.\nImplementation, experimentation and analysis of offline virtual assistant using Python and HuggingFace models.\nDesign and Implementation of a Web App using Docker, React, ExpresJS, Flask and MongoDB."
                 },
@@ -51,36 +50,38 @@
                     "when": "2017.03 - 2017.06",
                     "where": "International House",
                     "whereLink": "https://ihpalermo.com/",
-                    "whereLocation": "Palermo, Italy",
+                    "whereLocation": "Palermo, Italia",
                     "position": "IT Assistant",
-                    "what": "Writing contents for www.ihitaly.it and www.ihpalermo.com.\nTranslation of texts from italian to english and viceversa.\nDesignin posters on Adobe InDesign, Adobe FireWorks and Adobe Photoshop."
+                    "what": "Writing contents for www.ihItalia.it and www.ihpalermo.com.\nTranslation of texts from italian to english and viceversa.\nDesignin posters on Adobe InDesign, Adobe FireWorks and Adobe Photoshop."
                 }
             ]
         },
         {
-            "title": "Educazione",
+            "title": "Education",
             "icon": "bi bi-easel",
             "id": "school-section",
             "texts": [
                 {
-                    "when": "2017.03 - 2019.06",
-                    "where": "Korea Avanzato Institute of Science and Technology",
-                    "whereLink": "https://www.kaist.ac.kr/",
-                    "whereLocation": "Hawthorne, CA, USA",
-                    "degree": "Master Degree in Computer Engineering",
-                    "what": "Developed the software for the autonomous vehicle"
+                    "when": "2021.09 - 2023.10",
+                    "where": "Politecnico di Torino",
+                    "whereLink": "https://www.polito.it/",
+                    "whereLocation": "Torino, Italia",
+                    "degree": "Laurea Magistrale in Ing. Informatica",
+                    "what": "Specializzazione in Intelligenza Artificiale e Data Analysis.\nTesi:  'From Analysis to Application: Employing AI to Enhance User Experience at ESA'",
+                    "whatLink": "https://webthesis.biblio.polito.it/28494/"
                 },
                 {
-                    "when": "2013.03 - 2017.02",
-                    "where": "Korea Avanzato Institute of Science and Technology",
-                    "whereLink": "https://www.kaist.ac.kr/",
-                    "degree": "Bachelor Degree in Computer Engineering",
-                    "what": "Developed the software for the autonomous vehicle"
+                    "when": "2018.09 - 2021.07",
+                    "where": "Università degli Studi di Palermo",
+                    "whereLink": "https://www.unipa.it/",
+                    "whereLocation": "Palermo, Italia",
+                    "degree": "Laurea Triennale in Ing. Informatica",
+                    "what": "Laureato con voto: 110/110 e lode."
                 }
             ]
         },
         {
-            "title": "Premi",
+            "title": "Awards",
             "icon": "bi bi-award",
             "id": "awards-section",
             "texts": [
@@ -91,7 +92,7 @@
                 },
                 {
                     "when": "2020",
-                    "what": "Innovation Days.\nProgettazione di una tuta anti infortunistica.",
+                    "what": "Innovation Days.\nProgettazione di una tuta antinfortunistica smart.",
                     "where": "EIT HEALTH",
                     "whereLink": "https://www.economysicilia.it/innovation-days-palermo-vince-il-progetto-tlf-di-una-tuta-antinfortunistica-ultratecnologica/"
                 }
@@ -107,31 +108,31 @@
                     "texts": [
                         {
                             "name": "Python",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Java",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "JavaScript",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "TypeScript",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Rust",
-                            "level": "Base"
+                            "level": "Basic"
                         },
                         {
                             "name": "Dart",
-                            "level": "Base"
+                            "level": "Basic"
                         },
                         {
                             "name": "Kotlin",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         }
                     ]
                 },
@@ -140,15 +141,19 @@
                     "texts": [
                         {
                             "name": "React",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "NextJS",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Flutter",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
+                        },
+                        {
+                            "name": "HTML & CSS",
+                            "level": "Advanced"
                         }
                     ]
                 },
@@ -157,48 +162,48 @@
                     "texts": [
                         {
                             "name": "NodeJS",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "ExpressJS",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Flask",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "FastAPI",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Rest API",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "ZMQ",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         }
                     ]
                 },
                 "tools": {
-                    "title": "Tools",
+                    "title": "Strumenti",
                     "texts": [
                         {
                             "name": "Git",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Docker",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Kubernetes",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Helm",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         }
                     ]
                 },
@@ -207,31 +212,31 @@
                     "texts": [
                         {
                             "name": "Pandas",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Numpy",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Matplotlib",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Hadoop",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Scikit-learn",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Apache Spark",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
                             "name": "Jupyter Notebook",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         }
                     ]
                 },
@@ -240,35 +245,35 @@
                     "texts": [
                         {
                             "name": "Gestione del tempo",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Comunicazione",
-                            "level": "Intermedio"
+                            "level": "Intermediate"
                         },
                         {
-                            "name": "Teamwork",
-                            "level": "Avanzato"
+                            "name": "Lavoro di squadra",
+                            "level": "Advanced"
                         },
                         {
                             "name": "Problem-Solving",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Pensiero critico",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Leadership",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
                             "name": "Decision Making",
-                            "level": "Avanzato"
+                            "level": "Advanced"
                         },
                         {
-                            "name": "Flexibility",
-                            "level": "Avanzato"
+                            "name": "Flessibilità",
+                            "level": "Advanced"
                         }
                     ]
                 }
