@@ -11,7 +11,7 @@ interface Description {
   whatLink?: string;
 }
 
-function DescriptionWidget<T extends Description>({ desc }: { desc: T }) {
+function DescriptionWidget({ desc }: { desc: Description }) {
   return (
     <div className="flex flex-col rounded-lg bg-white/5 p-4 backdrop-blur-sm">
       <div className="description-header flex flex-col gap-x-2 sm:items-start md:items-center lg:flex-row">
@@ -51,7 +51,7 @@ function DescriptionWidget<T extends Description>({ desc }: { desc: T }) {
   );
 }
 
-export default async function TextSection<T extends Description>({
+export default async function TextSection({
   id,
   title,
   subtitle,
@@ -62,7 +62,7 @@ export default async function TextSection<T extends Description>({
   title: string;
   subtitle?: string;
   icon?: string;
-  descriptions: T[];
+  descriptions: Description[];
 }) {
   return (
     <div
