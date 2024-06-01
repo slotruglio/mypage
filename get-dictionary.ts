@@ -10,6 +10,7 @@ const dictionaries = {
 
 // Update with online resources if available
 if (process.env.BLOB_URL && process.env.NODE_ENV === 'production') {
+  console.log('Using online dictionaries');
   dictionaries.en = async () => {
     const response = await fetch(
       `${process.env.BLOB_URL}/dictionaries/en.json`,

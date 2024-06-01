@@ -30,13 +30,13 @@
                     "whereLink": "https://www.thalesaleniaspace.com/",
                     "whereLocation": "Roma, Italia",
                     "position": "Ground System Engineer",
-                    "what": "Design and Development of Mission Planner for PLATiNO & IRIDE Space Programmes.\nConducting manual and automated testing of ground segment software applications.\nImplementing robust Kubernetes solutions and optimizing DevOps workflow."
+                    "what": "Progettazione e Sviluppo del Mission Planner per i Programmi Spaziali PLATiNO & IRIDE.\nConduzione di test manuali e automatizzati di applicazioni software del segmento terreno.\nImplementazione di soluzioni Kubernetes robuste e ottimizzazione del flusso di lavoro DevOps."
                 },
                 {
                     "when": "2023.10 - 2023.12",
                     "where": "IBM - Client Innovaction Center",
                     "position": "Cloud Full Stack Developer",
-                    "what": "Designing and developing React Web App for Bank Software."
+                    "what": "Progettazione e sviluppo di Web App in React per Software Bancario."
                 },
                 {
                     "when": "2023.03 - 2023.08",
@@ -44,7 +44,7 @@
                     "whereLink": "https://www.esa.int/",
                     "whereLocation": "Frascati, Italia",
                     "position": "Mission Management and Ground Seg. Intern",
-                    "what": "Designing and developing recommendation systems in Python using AI libraries.\nImplementation, experimentation and analysis of offline virtual assistant using Python and HuggingFace models.\nDesign and Implementation of a Web App using Docker, React, ExpresJS, Flask and MongoDB."
+                    "what": "Progettazione e sviluppo di sistemi di raccomandazione in Python utilizzando librerie di AI.\nImplementazione, sperimentazione e analisi di un assistente virtuale offline utilizzando Python e modelli HuggingFace.\nProgettazione e implementazione di una Web App utilizzando Docker, React, ExpresJS, Flask e MongoDB."
                 },
                 {
                     "when": "2017.03 - 2017.06",
@@ -52,12 +52,12 @@
                     "whereLink": "https://ihpalermo.com/",
                     "whereLocation": "Palermo, Italia",
                     "position": "IT Assistant",
-                    "what": "Writing contents for www.ihItalia.it and www.ihpalermo.com.\nTranslation of texts from italian to english and viceversa.\nDesignin posters on Adobe InDesign, Adobe FireWorks and Adobe Photoshop."
+                    "what": "Scrittura di contenuti per www.ihItalia.it e www.ihpalermo.com.\nTraduzione di testi dall'italiano all'inglese e viceversa.\nProgettazione di poster su Adobe InDesign, Adobe FireWorks e Adobe Photoshop."
                 }
             ]
         },
         {
-            "title": "Education",
+            "title": "Educazione",
             "icon": "bi bi-easel",
             "id": "school-section",
             "texts": [
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "title": "Awards",
+            "title": "Premi",
             "icon": "bi bi-award",
             "id": "awards-section",
             "texts": [
