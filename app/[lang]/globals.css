@@ -6,7 +6,7 @@
   font-family: "SourceCodePro";
   src: url("/fonts/SourceCodePro-VariableFont_wght.ttf");
 }
-
+/*
 body:before {
   content: "";
   display: block;
@@ -23,7 +23,7 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
 }
-
+*/
 :root {
   --foreground-rgb: 44, 54, 57;
 }
