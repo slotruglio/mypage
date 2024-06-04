@@ -60,9 +60,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={params.lang}>
-      <body className={inter.className}>{children}</body>
-      <SpeedInsights />
-      <Analytics />
+      <body className={inter.className}>
+        {children}
+        <SpeedInsights />
+        <Analytics />
+      </body>
     </html>
   );
 }
