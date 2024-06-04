@@ -43,7 +43,7 @@ export default async function Home({
   }
 
   return (
-    <main className="min-h-screen md:bg-binary-pattern md:bg-fixed font-mono text-main-white">
+    <main className="min-h-screen font-mono text-main-white md:bg-binary-pattern md:bg-fixed ">
       <Header lang={lang} dictionary={dictionary} />
       {sections.map((section, index) => getSectionWidget(section, index))}
       <Footer lang={lang} dictionary={dictionary} />
